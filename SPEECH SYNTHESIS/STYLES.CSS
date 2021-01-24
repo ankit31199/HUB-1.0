@@ -1,0 +1,111 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  font-family: 'Amatic SC', cursive;
+  background-image: url(images/Hub\ 1.0.png);
+  background-position-y: 20px;
+  
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  
+  background-repeat: no-repeat;
+ background-size:contain;
+ 
+}
+
+.voiceinator {
+  padding: 2rem;
+  height: 65rem;
+  width: 55rem;
+  background-image: url(images/pexels-simon-matzinger-1323550.jpg);
+  
+  margin-left: 800px;
+  border-radius: 3rem;
+position: relative;
+  background-color: white;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 5px 5px black;
+}
+
+label{
+  font-weight: 800;
+  font-style: italic;
+  font-size: 20px;
+  color: darkblue;
+}
+h1 {
+  
+  width: calc(100% + 4rem);
+  margin: -2rem 0 2rem -2rem;
+  padding: .5rem;
+  color: black;
+  background-image: url(images/pexels-simon-matzinger-1323550.jpg);
+  border-bottom: 5px solid #F3C010;
+  text-align: center;
+  font-family: cursive;
+  font-size: 6rem;
+  font-weight: 50;
+  border-top-left-radius: 5px;
+  border-color: black;
+  
+}
+
+.voiceinator input,
+.voiceinator button,
+.voiceinator select,
+.voiceinator textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+  font-size: 2rem;
+  background-color: whitesmoke;
+  outline: 0;
+}
+
+textarea {
+  height: 20rem;
+}
+
+input[type="select"] {
+
+}
+
+.voiceinator button {
+  background: green;
+  border: 2px;
+  width: 49%;
+  float: left;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  margin-bottom: 0;
+  font-size: 3rem;
+  text-shadow: 5px;
+  border-bottom: 5px solid green;
+  cursor: pointer;
+  position: relative;
+}
+
+.voiceinator button:active {
+  top: 2px;
+}
+
+.voiceinator button:nth-of-type(1) {
+  margin-right: 2%;
+}
